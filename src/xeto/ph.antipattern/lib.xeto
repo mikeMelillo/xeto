@@ -1,0 +1,12 @@
+pragma: Lib <
+  doc: "Spec Library of determined anti-patterns. Used to guide linting applications to suggest conventional haystack specs."
+  version: "0.0.1"
+  depends: {
+    { lib: "sys", versions: "0.1.x" }
+  }
+  org: {
+    dis: "TODO"
+    uri: "TODO"
+  }
+>
+ 

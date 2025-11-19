@@ -1,0 +1,15 @@
+// My spec documentation
+AntiPattern : Dict {
+  antiTagSet: List <of:Spec>
+  preferredTagSet: List <of:Spec>
+}
+
+WaterSupplyPoint: Point & AntiPattern {
+  antiTagSet: {supply}
+  preferredTagSet: {leaving}
+}
+
+WaterReturnPoint: Point & AntiPattern {
+  antiTagSet: {return}
+  preferredTagSet: {entering}
+}
